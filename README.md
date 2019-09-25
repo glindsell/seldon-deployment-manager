@@ -62,3 +62,9 @@ Relevant issues:
 **2. More tests need to be added**  
 Current test is only a basic example to show use of behavioural testing framework.  
 [https://onsi.github.io/ginkgo/](https://onsi.github.io/ginkgo/)
+
+**3. Make timeout configurable**  
+Timeout is currently hard coded to 120s while waiting for resource to be available and again for it to be deleted. This may not be suitable for all environments.
+
+**3. Add help flag to binary**  
+Add help flag which displays command help and command line arguments.
